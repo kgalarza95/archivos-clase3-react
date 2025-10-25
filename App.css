@@ -1,0 +1,46 @@
+.lista-usuarios {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.lista-usuarios h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.usuarios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.usuario-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.usuario-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.usuario-card h3 {
+  color: #667eea;
+  margin-bottom: 10px;
+}
+
+.usuario-card p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
